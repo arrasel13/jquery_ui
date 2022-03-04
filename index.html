@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script> -->
+
+    <title>jQuery UI</title>
+  </head>
+  <body>
+    
+    
+    <section class="drag">
+      <div class="container">
+        <div class="row">
+          <!-- Draggable Example -->
+          <div class="col-lg-6">
+            <h3>1. Dragable</h3>
+            <div id="draggable" class="ui-widget-content">
+              <p>Drag me around</p>
+            </div>
+          </div>
+          <!-- Droppable Example -->
+          <div class="col-lg-6">
+            <h3>2. Droppable</h3>
+            <div id="draggable1" class="ui-widget-content">
+              <p>Drag me to my target</p>
+            </div>
+             
+            <div id="droppable" class="ui-widget-header">
+              <p>Drop here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    
+    <section class="sort">
+      <div class="container">
+        <div class="row">
+          <!-- Sortable Example -->
+          <div class="col-lg-6">
+            <h3>3. Shortable</h3>
+            <ul id="sortable">
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+            </ul>
+          </div>
+          <!-- Accordion Example -->
+          <div class="col-lg-6">
+            <h3>4. Accordion</h3>
+            <div id="accordion">
+              <h3>Section 1</h3>
+              <div>
+                <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+              </div>
+              <h3>Section 2</h3>
+              <div>
+                <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="auto_complete">
+      <div class="container">
+        <div class="row">
+          <!-- Auto Complete Example -->
+          <div class="col-lg-3">
+            <h3>5. Auto Complete</h3>
+            <form action="#">
+              <input type="text" class="form-control m-3 courses" placeholder="Enter Course name">
+              <button type="submit" class="btn btn-success m-3">Submit</button>
+            </form>
+          </div>
+
+          <!-- Date Picker -->
+          <div class="col-lg-3">
+            <h3>6. Date Picker</h3>
+            <p>Date: <input type="text" class="m-3" id="datepicker"></p>
+          </div>
+
+          <!-- Progress bar -->
+          <div class="col-lg-3">
+            <h3>7. Progressbar</h3>
+            <div class="progressbar m-3"></div>
+          </div>
+          
+          <!-- Tooltip -->
+          <div class="col-lg-3">
+            <h3>8. Tooltip</h3>
+            <p class=" m-3"><a class="t_tip" href="#" title="This is a tooltip content">Tooltips</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="menu_part">
+      <div class="container">
+        <div class="row">
+          <!-- Menu -->
+          <div class="col-lg-3">
+            <h3>9. Menu</h3>
+            <ul id="menu">
+              <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+              <li><div>Books</div></li>
+              <li><div>Clothing</div></li>
+              <li><div>Electronics</div>
+                <ul>
+                  <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                  <li><div>Car Hifi</div></li>
+                  <li><div>Utilities</div></li>
+                </ul>
+              </li>
+              <li><div>Movies</div></li>
+              <li><div>Music</div>
+                <ul>
+                  <li><div>Rock</div>
+                    <ul>
+                      <li><div>Alternative</div></li>
+                      <li><div>Classic</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Jazz</div>
+                    <ul>
+                      <li><div>Freejazz</div></li>
+                      <li><div>Big Band</div></li>
+                      <li><div>Modern</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Pop</div></li>
+                </ul>
+              </li>
+              <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+            </ul>
+          </div>
+
+          <!-- Select menu -->
+          <div class="col-lg-3">
+            <h3>10. Select Menu</h3>
+            <form action="#">
+ 
+              <fieldset>
+                <label for="speed">Select a speed</label>
+                <select name="speed" id="speed">
+                  <option>Slower</option>
+                  <option>Slow</option>
+                  <option selected="selected">Medium</option>
+                  <option>Fast</option>
+                  <option>Faster</option>
+                </select>
+             
+                <label for="number">Select a number</label>
+                <select name="number" id="number">
+                  <option>1</option>
+                  <option selected="selected">2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                </select>
+             
+                
+              </fieldset>
+             
+            </form>
+          </div>
+
+          <!-- Tooltip -->
+          <div class="col-lg-6">
+            <h3>11. Tabs</h3>
+              <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Tab1</a></li>
+                  <li><a href="#tabs-2">Tab2</a></li>
+                  <li><a href="#tabs-3">Tab3</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+                </div>
+                <div id="tabs-2">
+                  <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                </div>
+                <div id="tabs-3">
+                  <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="effects m-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>12 & 13. Add & Remove Class</h3>
+            <p class="a1_class" id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, alias.</p>
+            <button class="a_class btn btn-secondary">Add a Class</button>&nbsp;<button class="r_class btn btn-danger">Remove Class</button>
+          </div>
+
+          <div class="col-lg-3">
+            <h3>14. Toggle</h3>
+            <div class="toggler">
+              <div id="effect" class="ui-widget-content ui-corner-all">
+                <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+                <p>
+                  Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                </p>
+              </div>
+            </div>
+             
+            <select name="effects" id="effectTypes">
+              <option value="blind">Blind</option>
+              <option value="bounce">Bounce</option>
+              <option value="clip">Clip</option>
+              <option value="drop">Drop</option>
+              <option value="explode">Explode</option>
+              <option value="fade">Fade</option>
+              <option value="fold">Fold</option>
+              <option value="highlight">Highlight</option>
+              <option value="puff">Puff</option>
+              <option value="pulsate">Pulsate</option>
+              <option value="scale">Scale</option>
+              <option value="shake">Shake</option>
+              <option value="size">Size</option>
+              <option value="slide">Slide</option>
+            </select>
+             
+            <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+          </div>
+
+          <div class="col-lg-6">
+            <h3>15. Toggle Class</h3>
+            <div class="toggler1">
+              <div id="effect3" class="ui-widget-content ui-corner-all">
+                <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+                <p>
+                  Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                </p>
+              </div>
+            </div>
+             
+            <button id="button1" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="effects1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h3>16. Switch Class</h3>
+            <div class="toggler2">
+              <div id="effect4" class="newClass ui-corner-all">
+                  Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+              </div>
+              <button id="button2" class="ui-state-default ui-corner-all">Run Effect</button>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3>17. Image Cycler</h3>
+            <div id="imgCycler">
+              <img src="https://jqueryui.com/resources/demos/position/images/earth.jpg" width="458" height="308" alt="earth">
+              <img src="https://jqueryui.com/resources/demos/position/images/flight.jpg" width="512" height="307" alt="flight">
+              <img src="https://jqueryui.com/resources/demos/position/images/rocket.jpg" width="300" height="353" alt="rocket">
+             
+              <a id="previous" href="#">Previous</a>
+              <a id="next" href="#">Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="interactions">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>18. Resizable</h3>
+            <div id="resizable" class="ui-widget-content">
+              <h3 class="ui-widget-header">Resizable</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>19. Selectable</h3>
+            <ol id="selectable">
+              <li class="ui-widget-content">Item 1</li>
+              <li class="ui-widget-content">Item 2</li>
+              <li class="ui-widget-content">Item 3</li>
+            </ol>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>20. Slider</h3>
+            <div id="slider"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br><br>
+    <!-- JS Links -->
+    <script src="js/jquery_3.6.0.min.js"></script>
+    <!-- <script src="js/jquery_1.12.4.min.js"></script> -->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

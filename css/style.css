@@ -1,0 +1,183 @@
+/* Dragable */
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+
+/* Droppable */
+#draggable1 {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+
+/* Sortable */
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  /* height: 18px; */
+}
+#sortable li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+
+/* Menu */
+.ui-menu {
+  width: 150px;
+}
+
+/* Select Menu */
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.overflow {
+  height: 200px;
+}
+
+/* Effects */
+.effect1 {
+  color: red;
+  font-size: 24px;
+  border: 1px solid red;
+}
+.effect2 {
+  text-decoration: underline;
+}
+
+/* Toggler effects */
+.toggler {
+  width: 500px;
+  height: 200px;
+}
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect {
+  position: relative;
+  width: 240px;
+  height: 190px;
+  padding: 0.4em;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+
+/* Color Animation */
+.toggler1 {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button1 {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect3 {
+  width: 240px;
+  height: 190px;
+  padding: 0.4em;
+  position: relative;
+  background: #fff;
+}
+#effect3 h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+
+/* Switch Class */
+.toggler2 {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button2 {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect4 {
+  position: relative;
+}
+.newClass {
+  width: 240px;
+  padding: 1em;
+  letter-spacing: 0;
+  margin: 0;
+}
+.anotherNewClass {
+  text-indent: 40px;
+  letter-spacing: 0.2em;
+  width: 410px;
+  height: 100px;
+  padding: 30px;
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+/* Image cycler */
+#imgCycler {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+img {
+  position: absolute;
+}
+
+/* Resizable */
+#resizable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+#resizable h3 {
+  text-align: center;
+  margin: 0;
+}
+
+/* Selectable */
+#selectable .ui-selecting {
+  background: #feca40;
+}
+#selectable .ui-selected {
+  background: #f39814;
+  color: white;
+}
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#selectable li {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4em;
+  /* height: 18px; */
+}
